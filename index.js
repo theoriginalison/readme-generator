@@ -65,9 +65,19 @@ const questions = [
 
 ];
 
+const fileName = data.name.toLowerCase().split(' ').join('') + ".md";
+
 // function to write README file
-function writeToFile(fileName, data) {
-}
+// function writeToFile(fileName, data) {
+// }
+
+fs.writeFile(fileName, JSON.stringify(data, null, '\t'), function (err) {
+    if (err) {
+        return console.log(err);
+    }
+
+    console.log("README has been created!");
+});
 
 // function to initialize program
 function init() {

@@ -11,5 +11,14 @@
   "dependencies": {
     "inquire": "^0.4.8",
     "inquirer": "^6.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoriginalison/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theoriginalison/readme-generator/issues"
+  },
+  "homepage": "https://github.com/theoriginalison/readme-generator#readme"
 }
