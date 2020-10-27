@@ -2,9 +2,15 @@ console.log("Here we go! You've got this ;D")
 
 const fs = require("fs");
 const inquirer = require("inquirer")
+const generateMarkdown = require("./utils/generateMarkdown")
 
 // array of questions for user
 const questions = [
+    {
+        type: "input",
+        name: "name",
+        message: "Enter your name.",
+    },
     {
         type: "input",
         name: "title",
@@ -37,8 +43,8 @@ const questions = [
         name: "license",
         choices: [
             "MIT",
-            "other",
-            "another",
+            "Apache",
+            "GPL",
             "last one"
         ]
     },
@@ -65,23 +71,24 @@ const questions = [
 
 ];
 
-const fileName = data.name.toLowerCase().split(' ').join('') + ".md";
 
 // function to write README file
 // function writeToFile(fileName, data) {
 // }
 
-fs.writeFile(fileName, JSON.stringify(data, null, '\t'), function (err) {
-    if (err) {
-        return console.log(err);
-    }
 
-    console.log("README has been created!");
-});
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions).then(answers => {
+        fs.writeFile("./utils/README.md", generateMarkdown(answers), function (err) {
+            if (err) {
+                return console.log(err);
+            }
+            console.log("README has been created!");
+        });
 
+    })
 }
 
 // function call to initialize program
