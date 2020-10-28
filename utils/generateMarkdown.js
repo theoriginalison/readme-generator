@@ -259,7 +259,7 @@ limitations under the License.`
     ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
     DEALINGS IN THE SOFTWARE.`
   }
-  if (data.license === "GNU") {
+  if (data.license === "GNU GPL") {
     badgeURL = "https://img.shields.io/badge/license-GPL-blue"
     licenseText = `                    GNU GENERAL PUBLIC LICENSE
     Version 3, 29 June 2007

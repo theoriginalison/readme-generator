@@ -1,5 +1,3 @@
-console.log("Here we go! You've got this ;D")
-
 const fs = require("fs");
 const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown")
