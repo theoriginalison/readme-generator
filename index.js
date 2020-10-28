@@ -44,8 +44,8 @@ const questions = [
         choices: [
             "MIT",
             "Apache",
-            "GPL",
-            "last one"
+            "Boost",
+            "GNU GPL"
         ]
     },
     {
