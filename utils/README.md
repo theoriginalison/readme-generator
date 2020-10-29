@@ -1,9 +1,9 @@
-# a
+# README Generator
 
   ![Badge for MIT](https://img.shields.io/badge/license-MIT-green)
   
   ## Description
-  a
+  A program that generates a README based on a series of questions in the terminal.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,18 +15,18 @@
   * [Questions](#questions)
   
   ## Installation
-  a
+  Run an npm install and also install inquirer.
 
   ## Usage
-  a
+  Once installed, answer the prompts. Make sure you have all of your links ready!
 
   ## Screeshot
-  ![Screenshot of a](s)
+  ![Screenshot of README Generator](??)
 
   ## License
   MIT License
 
-    Copyright (c) 2020 a
+    Copyright (c) 2020 Alison Lubar
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -47,12 +47,12 @@
     SOFTWARE.
 
   ## Contributing
-  a
+  My dog, Kira.
 
   ## Tests
-  d
+  None yet. Soon to come.
 
   ## Questions
-  Find me on GitHub here: c
-  Or you can reach me at a for any additional questions.
+  Find me on GitHub here: Link here
+  Or you can reach me at aslubar@gmail.com for any additional questions.
 
