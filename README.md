@@ -17,7 +17,7 @@
   Make sure you run 'npm install' for inquirer.
 
   ## Usage
-  Upon initialization, answer the prompts. 
+  Upon initialization, answer the prompts. This will create a README.md file in the ./utils folder. 
 
   ## Screeshot
   ![Screenshot of terminal asking prompts](a)
