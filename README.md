@@ -20,7 +20,7 @@
   Upon initialization, answer the prompts. This will create a README.md file in the ./utils folder. 
 
   ## Screeshot
-  ![Screenshot of terminal asking prompts](a)
+  ![Screenshot of terminal asking prompts](./utils/README-terminal-screenshot.png)
 
   ## License
   MIT License
@@ -53,5 +53,5 @@
 
   ## Questions
   Find me on GitHub here: https://github.com/theoriginalison
-  Or you can reach me at aslubar@gmail.com for any additional questions.
+  or you can reach me at aslubar@gmail.com for any additional questions.
 
